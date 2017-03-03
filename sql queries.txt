@@ -1,0 +1,9 @@
+CREATE TABLE Accounts (
+id INT NOT NULL AUTO_INCREMENT,
+username VARCHAR(12) NOT NULL,
+password VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL,
+PRIMARY KEY(id)
+);
+
+insert into accounts (username, password, email) values ("name", "pass", "email@email.com");
